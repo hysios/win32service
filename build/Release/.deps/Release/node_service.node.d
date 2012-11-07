@@ -1,1 +1,0 @@
-cmd_Release/node_service.node := ./gyp-mac-tool flock ./Release/linker.lock c++ -shared -Wl,-search_paths_first -mmacosx-version-min=10.5 -arch x86_64 -L./Release -install_name @loader_path/node_service.node  -o Release/node_service.node  -undefined dynamic_lookup
