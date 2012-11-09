@@ -1,8 +1,10 @@
 var should = require('should');
 
 describe('win32service', function(){
-	var win32 = require('../build/Release/win32service.node');
+	// var win32 = require('../build/Release/win32service.node');
+	
 	var util  = require('util');
+
 
 	it('require load', function(){
 		var service = new win32.Win32Service();
